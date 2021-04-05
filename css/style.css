@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.fondovideo{
+    height: 100%;
+    width: auto;
+    z-index: 0;
+}
+#principal{
+    position: relative;
+}
+.contentitulo{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+.contentitulo header{
+    height: 70px;
+}
+.logo{
+    height: 60px;
+    width: 250px;
+    margin-left: 20px;
+    /*border: 1px solid white;*/
+}
+header{
+    /* border-bottom: 1px solid rgb(185, 133, 133);*/
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgba(231, 218, 218, 0.678);
+ }
+ nav a{
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+    font-family: 'Courgette', cursive;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+nav a:hover{
+    background-color: rgba(255, 30, 0, 0.342);
+    border-radius: 10px;
+}
+.titulo{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: calc(100% - 110px);
+    font-family: 'Courgette', cursive;
+   
+}
+.cajita{
+    width: 60%;
+    padding: 10px;
+}
+.cajita p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    margin: 1em;
+    color: black;
+}
+.cajita h3{
+    font-size: 4em;
+}
+.rojo{
+    color: red;
+}
+.black{
+    color: black;
+}
+.botoncito{
+    margin: 1em;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+    background-color: rgba(228, 10, 10, 0.486);
+}
+.redes a{
+    font-size: 2em;
+    color: white;
+    padding:  0 60px;
+}
+.redes{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 350px;
+    font-size: 3em;
+}
+/* pagina vuelos */
+.cabecera{
+    font-family: 'Courgette', cursive;
+    font-size: 3em;
+    padding: 10px;
+    text-align: center;
+    color: red;
+    background-color: rgba(209, 167, 167, 0.616);
+    text-shadow: 0 0 10px #FFFFFF;
+}
+#vuelos{
+    background: url(../img/fondito.png);
+}
+.contenedor{
+    /* border: 1px solid blue;*/
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .cajalugar{
+    transition: all 250ms ease-in;
+    border: 1px solid white;
+    width: 20%;
+    height: 300px;
+    background-color: rgba(248, 248, 248, 0.877);
+    position: relative;
+    margin-top: 43px;
+    border-radius: 0px 0px 20px 20px ;
+}
+.cajalugar img{
+    width: 100%;
+}
+.cajalugar img:hover{
+    transform:scale(1.1) rotateY(180deg);
+    transform-style: preserve-3d;
+}
+.detallito{
+    color: #000000;
+}
+.detallito h4{
+    font-size: 1.35em;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    padding-top: 20px;
+}
+/* tus vuelos */
+#area{
+    background: url(../img/pexels-photo-39811.jpeg)
+}
+.contenedor1{
+   /* border: 1px solid blue;*/
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+ }
+.cabecera1{
+    font-family: 'Courgette', cursive;
+    font-size: 3em;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.no{
+    font-size: 1.35em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.cajaI{
+   /* border: 1px solid yellow;*/
+    width: 50%;
+}
+.cajaI video{
+    width: 100%;
+}
+.git{
+    /* border: 1px solid yellow;*/
+     width: 25%;
+     padding-top:80px;
+     margin-left: 10px;
+     text-align: center;
+}
+.cajaD{
+    /*border: 1px solid rgb(65, 65, 51);*/
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.685);
+    display: inline-block;
+    vertical-align: top;
+}
+.cajaD img{
+    width: 99%;
+}
+h5{
+    text-align: center;
+}
+.tet{
+    text-align: justify;
+    padding: 10px;
+}
+.bot{
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+}
+
+#contact{
+    background: url(../img/pexels-photo-531321.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
